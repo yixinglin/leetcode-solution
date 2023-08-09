@@ -9,6 +9,7 @@
 - [#0015](https://youtu.be/jzZsG8n2R9A) 3Sum: [Sort input](src/main/java/org/example/array/ThreeSums.java), then simplify the problem to the 2Sum problem.
 - [#0152](https://youtu.be/lXVy6YWFcRM) Maximum Product Subarray: [DP](src/main/java/org/example/array/MaxProductSubarray.java). Compute max and min for each prefix subarray.
 - [#0238](https://youtu.be/bNvIQI2wAjk) Product of Array Except Self: [Prefix & Postfix](src/main/java/org/example/array/ProductOfArrayExceptSelf.java). Make two passes, first in-order, second in-reverse, to compute products.
+- [#206](https://youtu.be/G0_I-ZF0S38) Reverse Linked List: [Iterative or Recursive](src/main/java/org/example/list/ReverseLinkedList.java) Iterate through maintaining cur and prev; Recursively reverse, return new head of list
 ## Linked List
 
 ## String
