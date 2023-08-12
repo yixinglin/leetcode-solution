@@ -13,4 +13,5 @@
 - [#0206](https://youtu.be/G0_I-ZF0S38) Reverse Linked List: [Iterative or Recursive](src/main/java/org/example/list/ReverseLinkedList.java) Iterate through maintaining cur and prev; Recursively reverse, return new head of list
 - [#0141](https://youtu.be/gBTe7lFR3vc)Linked List Cycle: [Fast & Slow pointers](src/main/java/org/example/list/LinkedListCycle.java). Hash Set to remember visited nodes; Fast and slow pointers. The loop exists if they meet;
 - [#0021](https://youtu.be/XIdigk956u0) Merge Two Sorted Lists: [Insert](src/main/java/org/example/list/MergeTwoSortedLists.java) each node from one list into the other.
+- [#0019](https://youtu.be/XVuQxVej6y8) Remove Nth Node From End Of List: [Two Pointers](src/main/java/org/example/list/RemoveNthNodeFromEndOfList.java). Two pointers, second has offset of n from the first.
 ## String
