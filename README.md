@@ -15,3 +15,4 @@
 - [#0021](https://youtu.be/XIdigk956u0) Merge Two Sorted Lists: [Insert](src/main/java/org/example/list/MergeTwoSortedLists.java) each node from one list into the other.
 - [#0019](https://youtu.be/XVuQxVej6y8) Remove Nth Node From End Of List: [Two Pointers](src/main/java/org/example/list/RemoveNthNodeFromEndOfList.java). Two pointers, second has offset of n from the first.
 ## String
+- [#0242](https://youtu.be/9UtInBqnCgA) [Valid Anagram](src/main/java/org/example/string/ValidAnagram.java), hashmap to count each char in str1, decrement for str2
