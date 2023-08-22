@@ -17,6 +17,7 @@
 ## String
 - [#0242](https://youtu.be/9UtInBqnCgA) [Valid Anagram](src/main/java/org/example/string/ValidAnagram.java), hashmap to count each char in str1, decrement for str2
 - [#0003](https://youtu.be/wiGpQwVHdE0) Longest Substring Without Repeating Characters. [Sliding Window](src/main/java/org/example/string/LongestSubstringWithoutRepeatingCharacters.java), Sliding window with hash set.
+- [#0020](https://youtu.be/WTzjTskDFMg) [Valid Parentheses](src/main/java/org/example/string/ValidParentheses.java) Use stack. 
 
 ## Sorting Algorithms
 Time complexity of O(N^2). [Source code](src/main/java/org/example/array/SortAlgorithmsN2.java).
