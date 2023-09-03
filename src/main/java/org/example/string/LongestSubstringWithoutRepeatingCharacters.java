@@ -43,10 +43,10 @@ public class LongestSubstringWithoutRepeatingCharacters {
     public static void main(String[] args) {
         LongestSubstringWithoutRepeatingCharacters obj = new LongestSubstringWithoutRepeatingCharacters();
         int maxLen;
-        //maxLen = obj.myFirstIdea("abcabcbb");  //3
-       maxLen = obj.myFirstIdea("bbbbb");  //1
-       // maxLen = obj.myFirstIdea("pwwkew");  //3
-        //maxLen = obj.solution("dvdf");  //3
+        maxLen = obj.solution("abcabcbb");  //3
+//        maxLen = obj.solution("bbbbb");  //1
+//        maxLen = obj.solution("pwwkew");  //3
+//        maxLen = obj.solution("dvdf");  //3
         System.out.println(maxLen);
     }
 }
