@@ -21,13 +21,15 @@ public class BestTimetoBuyandSellStock  {
 
     public static int myFristIdea(int[] prices) {
         int maxProfit = 0;
-        for (int buy = 0; buy < prices.length; buy++) {
-            for (int sell = buy; sell <prices.length; sell++) {
-                int curProfit = prices[sell] - prices[buy];
-                if(curProfit > maxProfit) {
-                    maxProfit = curProfit;
-                }
+        int profit;
+        int left=0, right=1;
+        while(right < prices.length) {
+            profit = prices[right] - prices[left];
+            maxProfit = Math.max(maxProfit, profit);
+            if (profit < 0) {
+                left = right;
             }
+            right++;
         }
         return maxProfit;
     }

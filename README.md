@@ -20,7 +20,7 @@
 - [#0003](https://youtu.be/wiGpQwVHdE0) Longest Substring Without Repeating Characters. [Sliding Window](src/main/java/org/example/string/LongestSubstringWithoutRepeatingCharacters.java), Sliding window with hash set.
 - [#0020](https://youtu.be/WTzjTskDFMg) [Valid Parentheses](src/main/java/org/example/string/ValidParentheses.java) Use stack.
 - [#424](https://youtu.be/gqXU1UyA8pk) [LongestRepeatingCharacterReplacement](src/main/java/org/example/string/LongestRepeatingCharacterReplacement.java) use sliding window to optimize. 
-
+- [#0125](https://youtu.be/jJXJ16kPFWg) [ValidPalindrome](src/main/java/org/example/string/ValidPalindrome.java)
 ## Sorting Algorithms
 Time complexity of O(N^2). [Source code](src/main/java/org/example/array/SortAlgorithmsN2.java). 
 - Insertion sort
@@ -29,3 +29,4 @@ Time complexity of O(N^2). [Source code](src/main/java/org/example/array/SortAlg
 Time complexity of O(N log N). [Source code](src/main/java/org/example/array/SortAlgorithmsNlogN.java)
 - Quick sort
 - Merge sort
+

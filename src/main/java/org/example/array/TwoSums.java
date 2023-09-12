@@ -32,12 +32,28 @@ public class TwoSums {
     }
 
 
+    public static int[] myFirstIdea(int[] nums, int target) {
+        Map<Integer, Integer> indices = new HashMap();  // Mapping from number to index
+        int diff;
+        for (int i = 0; i < nums.length; i++) {
+            diff = target - nums[i];
+            if (indices.containsKey(diff)) {
+                return new int[] {indices.get(diff), i};
+            } else {
+                indices.put(nums[i], i);
+            }
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
         int[] res = new int[] {3,2,4};
         int[] s1 = TwoSums.solution1(res, 6);
         int[] s2 = TwoSums.solution2(res, 6);
+        int[] s3 = TwoSums.myFirstIdea(res, 6);
         System.out.println(Arrays.toString(s1));
         System.out.println(Arrays.toString(s2));
+        System.out.println(Arrays.toString(s3));
     }
 
 
